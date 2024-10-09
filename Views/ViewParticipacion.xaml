@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="GT_AdminDB.Views.ViewParticipacion"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GT_AdminDB.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.Resources>
+        <local:NumberFormatConverter x:Key="NumberFormatConverter"/>
+    </Page.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="DarkGreen">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Image x:Name="imgProfile" Source="ms-appx:///Assets\Boney_Icono.png" Grid.Column="0" Margin="10,10,10,10" HorizontalAlignment="Left" Height="70" Width="70"/>
+            <TextBlock x:Name="txbNombre" FontSize="28" Grid.Column="1" Width="200" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Button x:Name="btnGoBack" Grid.Column="2" Content="Volver" Margin="0,0,10,0" HorizontalAlignment="Right" Click="btnGoBack_Click"/>
+        </Grid>
+        <ListView x:Name="lvwParticipacion" Grid.Row="1" HorizontalAlignment="Stretch" Background="Black">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ContextFlyout>
+                            <MenuFlyout>
+                                <MenuFlyoutItem Text="Editar" Click="MenuFlyoutItemEditar_Click"/>
+                                <MenuFlyoutItem Text="Eliminar" Click="MenuFlyoutItemEliminar_Click"/>
+                            </MenuFlyout>
+                        </Grid.ContextFlyout>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="50"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="{Binding Id}" Grid.Column="0"/>
+                        <TextBlock Text="{Binding Raid.Fecha_Inicio}" Grid.Column="1" Margin="5,0,0,0"/>
+                        <TextBlock Text="{Binding Intentos_Totales}" Grid.Column="2"/>
+                        <TextBlock Text="{Binding Total_Damage, Converter={StaticResource NumberFormatConverter}}" Grid.Column="3" Margin="5,0,0,0"/>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Page>

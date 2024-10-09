@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="GT_AdminDB.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GT_AdminDB"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <SplitView x:ConnectionId='2' x:Name="splitView" Grid.Column="0" PaneBackground="{ThemeResource SystemControlBackgroundChromeMediumLowBrush}" IsPaneOpen="False" OpenPaneLength="280" CompactPaneLength="48" DisplayMode="CompactInline">
+            <SplitView.Pane>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:ConnectionId='3' Text="PANE CONTENT" x:Name="PaneHeader" Margin="60,12,0,0" Style="{StaticResource BaseTextBlockStyle}"/>
+                    <Button x:ConnectionId='4' x:Name="btnOpenPane" Height="39" Margin="4,5,0,5"                          >
+                        <FontIcon Glyph="&#xE700;" FontSize="15"/>
+                    </Button>
+                    <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" Margin="0,5,0,0">
+                        <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                            <!--EXPANDER MIEMBROS-->
+                            <Expander x:ConnectionId='7' x:Name="expMiembros" HorizontalAlignment="Stretch" >
+                                <Expander.Header>
+                                    <Grid>
+                                        <FontIcon Glyph="&#xE77B;" FontSize="18" HorizontalAlignment="Left"/>
+                                        <TextBlock Text="Miembros" Margin="32,0,0,0" HorizontalAlignment="Left"/>
+                                    </Grid>
+                                </Expander.Header>
+                                <Grid HorizontalAlignment="Stretch">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <TextBox x:ConnectionId='23' x:Name="txtNombre" Header="Nombre" Grid.Row="0" PlaceholderText="Ingresar nombre" HorizontalAlignment="Stretch" Width="200"/>
+                                    <CalendarDatePicker x:ConnectionId='24' x:Name="dpkFechaIngreso"  Grid.Row="1" PlaceholderText="Seleccionar fecha" HorizontalAlignment="Stretch" Width="200" Margin="0,5,0,0" Header="Fecha Ingreso"/>
+                                    <CalendarDatePicker x:ConnectionId='25' x:Name="dpkUltimoLogin" Grid.Row="2" PlaceholderText="Seleccionar fecha" HorizontalAlignment="Stretch" Width="200" Margin="0,5,0,0" Header="Ultimo Login"/>
+                                    <Button x:ConnectionId='26' x:Name="btnAgregarMiembro" Grid.Row="3" Content="Agregar" HorizontalAlignment="Stretch" Margin="0,5,0,0"                                />
+                                    <Button x:ConnectionId='27' x:Name="btnCancelarMiembro" Grid.Row="4" Content="Cancelar" HorizontalAlignment="Stretch" Margin="0,5,0,0" Visibility="Collapsed"                                 />
+                                </Grid>
+                            </Expander>
+                            <!--EXPANDER RAID-->
+                            <Expander x:ConnectionId='8' x:Name="expRaid" HorizontalAlignment="Stretch">
+                                <Expander.Header>
+                                    <Grid>
+                                        <FontIcon Glyph="&#xE822;" FontSize="18" HorizontalAlignment="Left"/>
+                                        <TextBlock Text="Raid" Margin="32,0,0,0" HorizontalAlignment="Left"/>
+                                    </Grid>
+                                </Expander.Header>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <CalendarDatePicker x:ConnectionId='17' x:Name="dpkFechaRaid" Header="Fecha Inicio Raid" Grid.Row="0" Width="200"/>
+                                    <NumberBox x:ConnectionId='18' x:Name="txtCantidadRaid" Header="Cantidad Intentos" Value="0" SmallChange="1" SpinButtonPlacementMode="Compact" Grid.Row="1"/>
+                                    <NumberBox x:ConnectionId='19' x:Name="txtDanoTotal" Header="Daño Total" Value="0" SmallChange="100" SpinButtonPlacementMode="Compact" Grid.Row="2"/>
+                                    <Button x:ConnectionId='20' x:Name="btnAgregarRaid" Content="Agregar" Margin="0,5,0,0" HorizontalAlignment="Left" Width="98" Grid.Row="3"                             />
+                                    <Button x:ConnectionId='21' x:Name="btnEliminarRaid" Content="Eliminar" Margin="0,5,0,0" HorizontalAlignment="Right" Width="98" Grid.Row="3"                              />
+                                    <Button x:ConnectionId='22' x:Name="btnStartRaid" Content="Comenzar Raid" Grid.Row="4" Margin="0,5,0,0" HorizontalAlignment="Stretch"                           />
+                                </Grid>
+                            </Expander>
+                            <!--EXPANDER FILTROS-->
+                            <Expander x:ConnectionId='9' x:Name="expFiltros" HorizontalAlignment="Stretch">
+                                <Expander.Header>
+                                    <Grid>
+                                        <FontIcon Glyph="&#xE71C;" FontSize="18" HorizontalAlignment="Left"/>
+                                        <TextBlock Text="Filtros" Margin="32,0,0,0" HorizontalAlignment="Left"/>
+                                    </Grid>
+                                </Expander.Header>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <TextBox x:ConnectionId='14' x:Name="txtFiltroNombre" Grid.Row="0" Width="200"                               Header="Filtrar Nombre"/>
+                                    <CheckBox x:ConnectionId='15' x:Name="chkFiltroLogout" Grid.Row="1" Content="Ordenar por dias desconectado" VerticalContentAlignment="Center" Padding="5,0,5,0" IsChecked="False"                                                                        />
+                                    <CheckBox x:ConnectionId='16' x:Name="chkFiltroRaid" Grid.Row="2" Content="Ordenar por daño en raid" VerticalContentAlignment="Center" Padding="5,0,5,0" IsChecked="False" IsEnabled="False"/>
+                                </Grid>
+                            </Expander>
+                            <!--EXPANDER OPCIONES ADICIONALES-->
+                            <Expander x:ConnectionId='10' x:Name="expOpcionAdicional" HorizontalAlignment="Stretch">
+                                <Expander.Header>
+                                    <Grid>
+                                        <FontIcon Glyph="&#xE9E9;" FontSize="18" HorizontalAlignment="Left"/>
+                                        <TextBlock Text="Opciones Adicionales" Margin="32,0,0,0" HorizontalAlignment="Left"/>
+                                    </Grid>
+                                </Expander.Header>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <CheckBox x:ConnectionId='12' x:Name="chkSeleccionMultiple" Grid.Row="0" Content="Seleccion multiple" IsChecked="False"                                                                                   HorizontalAlignment="Left"/>
+                                    <CheckBox x:ConnectionId='13' x:Name="chkHistorialVentana" Grid.Row="1" Content="Ver historial en modo ventana" IsEnabled="False" IsChecked="False" HorizontalAlignment="Left"/>
+                                </Grid>
+                            </Expander>
+                            <Button x:ConnectionId='11' x:Name="btnTest" Content="Test" HorizontalAlignment="Stretch"                      />
+                        </StackPanel>
+                    </ScrollViewer>
+                    <InfoBar x:ConnectionId='5' x:Name="infobarMain" IsOpen="False" Severity="Informational" Title="Operacion" Message="Miembro Creado" Grid.Row="1" VerticalAlignment="Bottom" Background="#323232"/>
+                    <Button x:ConnectionId='6' x:Name="btnConfig" Grid.Row="2" Height="48" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Left" CornerRadius="0"                        >
+                        <Grid HorizontalAlignment="Stretch">
+                            <FontIcon Glyph="&#xE713;" FontSize="20" Margin="4,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                            <TextBlock Text="Settings" Margin="36,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                        </Grid>
+                    </Button>
+                </Grid>
+            </SplitView.Pane>
+            <Grid>
+                <Frame x:ConnectionId='28' x:Name="contentFrame" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            </Grid>
+        </SplitView>
+    </Grid>
+</Window>
+

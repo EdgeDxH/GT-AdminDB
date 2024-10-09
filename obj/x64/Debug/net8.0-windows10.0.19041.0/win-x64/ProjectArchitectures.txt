@@ -1,0 +1,1 @@
+C:\Users\Edge\source\repos\GT-AdminDB\GT-AdminDB.csproj;x64

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "GT-AdminDB (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "GT-AdminDB (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
