@@ -1,1 +1,1 @@
-C:\Users\Edge\source\repos\GT-AdminDB\GT-AdminDB.csproj;x64
+C:\Users\Edge\Documents\GitHub\GT-AdminDB\GT-AdminDB.csproj;x64

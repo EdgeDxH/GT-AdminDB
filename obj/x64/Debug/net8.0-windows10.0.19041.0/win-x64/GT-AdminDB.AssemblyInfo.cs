@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GT-AdminDB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13f398f4779da6c458cf0f5c00bbefd0735f482e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c67f6a94de3b22b6fb49785c62faaa4dcf6a8318")]
 [assembly: System.Reflection.AssemblyProductAttribute("GT-AdminDB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GT-AdminDB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

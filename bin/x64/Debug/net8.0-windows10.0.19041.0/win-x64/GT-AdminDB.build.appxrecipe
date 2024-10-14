@@ -10,37 +10,37 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>1d2e3d78-227d-4dc4-be1f-d3842f899d74</PackageIdentityName>
     <PackageIdentityPublisher>CN=Edge</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Edge\source\repos\GT-AdminDB\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Edge\Documents\GitHub\GT-AdminDB\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Edge\source\repos\GT-AdminDB\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Edge\Documents\GitHub\GT-AdminDB\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Edge\source\repos\GT-AdminDB\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GT-AdminDB.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GT-AdminDB.runtimeconfig.json">
       <PackagePath>GT-AdminDB.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GT-AdminDB.dll">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GT-AdminDB.dll">
       <PackagePath>GT-AdminDB.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\Assets\Boney_Icono.png">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\Assets\Boney_Icono.png">
       <PackagePath>Assets\Boney_Icono.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\config.json">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\config.json">
       <PackagePath>config.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>GT-AdminDB.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Edge\.nuget\packages\microsoft.web.webview2\1.0.2651.64\runtimes\win-x64\native\WebView2Loader.dll">
@@ -733,28 +733,28 @@
     <AppxPackagedFile Include="C:\Users\Edge\.nuget\packages\microsoft.web.webview2\1.0.2651.64\lib_manual\net6.0-windows10.0.17763.0\Microsoft.Web.WebView2.Core.Projection.dll">
       <PackagePath>Microsoft.Web.WebView2.Core.Projection.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GT-AdminDB.deps.json">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GT-AdminDB.deps.json">
       <PackagePath>GT-AdminDB.deps.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

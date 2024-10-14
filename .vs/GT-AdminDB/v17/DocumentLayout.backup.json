@@ -1,30 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Edge\\source\\repos\\GT-AdminDB\\",
+  "WorkspaceRootPath": "C:\\Users\\Edge\\Documents\\GitHub\\GT-AdminDB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0D87988-8801-42A0-9A0C-27F9FE77EE4E}|GT-AdminDB.csproj|c:\\users\\edge\\source\\repos\\gt-admindb\\clases\\participacioncollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0D87988-8801-42A0-9A0C-27F9FE77EE4E}|GT-AdminDB.csproj|solutionrelative:clases\\participacioncollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0D87988-8801-42A0-9A0C-27F9FE77EE4E}|GT-AdminDB.csproj|c:\\users\\edge\\documents\\github\\gt-admindb\\views\\configpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D87988-8801-42A0-9A0C-27F9FE77EE4E}|GT-AdminDB.csproj|solutionrelative:views\\configpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0D87988-8801-42A0-9A0C-27F9FE77EE4E}|GT-AdminDB.csproj|c:\\users\\edge\\source\\repos\\gt-admindb\\views\\viewparticipacion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C0D87988-8801-42A0-9A0C-27F9FE77EE4E}|GT-AdminDB.csproj|c:\\users\\edge\\documents\\github\\gt-admindb\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C0D87988-8801-42A0-9A0C-27F9FE77EE4E}|GT-AdminDB.csproj|solutionrelative:views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D87988-8801-42A0-9A0C-27F9FE77EE4E}|GT-AdminDB.csproj|c:\\users\\edge\\documents\\github\\gt-admindb\\views\\viewparticipacion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0D87988-8801-42A0-9A0C-27F9FE77EE4E}|GT-AdminDB.csproj|solutionrelative:views\\viewparticipacion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0D87988-8801-42A0-9A0C-27F9FE77EE4E}|GT-AdminDB.csproj|c:\\users\\edge\\source\\repos\\gt-admindb\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C0D87988-8801-42A0-9A0C-27F9FE77EE4E}|GT-AdminDB.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C0D87988-8801-42A0-9A0C-27F9FE77EE4E}|GT-AdminDB.csproj|c:\\users\\edge\\documents\\github\\gt-admindb\\clases\\participacioncollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D87988-8801-42A0-9A0C-27F9FE77EE4E}|GT-AdminDB.csproj|solutionrelative:clases\\participacioncollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0D87988-8801-42A0-9A0C-27F9FE77EE4E}|GT-AdminDB.csproj|c:\\users\\edge\\source\\repos\\gt-admindb\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0D87988-8801-42A0-9A0C-27F9FE77EE4E}|GT-AdminDB.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0D87988-8801-42A0-9A0C-27F9FE77EE4E}|GT-AdminDB.csproj|c:\\users\\edge\\source\\repos\\gt-admindb\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C0D87988-8801-42A0-9A0C-27F9FE77EE4E}|GT-AdminDB.csproj|c:\\users\\edge\\documents\\github\\gt-admindb\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0D87988-8801-42A0-9A0C-27F9FE77EE4E}|GT-AdminDB.csproj|solutionrelative:views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0D87988-8801-42A0-9A0C-27F9FE77EE4E}|GT-AdminDB.csproj|c:\\users\\edge\\source\\repos\\gt-admindb\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C0D87988-8801-42A0-9A0C-27F9FE77EE4E}|GT-AdminDB.csproj|solutionrelative:views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C0D87988-8801-42A0-9A0C-27F9FE77EE4E}|GT-AdminDB.csproj|c:\\users\\edge\\documents\\github\\gt-admindb\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C0D87988-8801-42A0-9A0C-27F9FE77EE4E}|GT-AdminDB.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D87988-8801-42A0-9A0C-27F9FE77EE4E}|GT-AdminDB.csproj|c:\\users\\edge\\documents\\github\\gt-admindb\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D87988-8801-42A0-9A0C-27F9FE77EE4E}|GT-AdminDB.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,43 +38,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ViewParticipacion.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Edge\\source\\repos\\GT-AdminDB\\Views\\ViewParticipacion.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\ViewParticipacion.xaml.cs",
-              "ToolTip": "C:\\Users\\Edge\\source\\repos\\GT-AdminDB\\Views\\ViewParticipacion.xaml.cs",
-              "RelativeToolTip": "Views\\ViewParticipacion.xaml.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACcAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T06:09:10.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ParticipacionCollection.cs",
-              "DocumentMoniker": "C:\\Users\\Edge\\source\\repos\\GT-AdminDB\\Clases\\ParticipacionCollection.cs",
+              "DocumentMoniker": "C:\\Users\\Edge\\Documents\\GitHub\\GT-AdminDB\\Clases\\ParticipacionCollection.cs",
               "RelativeDocumentMoniker": "Clases\\ParticipacionCollection.cs",
-              "ToolTip": "C:\\Users\\Edge\\source\\repos\\GT-AdminDB\\Clases\\ParticipacionCollection.cs",
+              "ToolTip": "C:\\Users\\Edge\\Documents\\GitHub\\GT-AdminDB\\Clases\\ParticipacionCollection.cs",
               "RelativeToolTip": "Clases\\ParticipacionCollection.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAACRAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAMYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T05:45:52.125Z",
+              "WhenOpened": "2024-10-14T12:13:57.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "ViewParticipacion.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Edge\\Documents\\GitHub\\GT-AdminDB\\Views\\ViewParticipacion.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ViewParticipacion.xaml.cs",
+              "ToolTip": "C:\\Users\\Edge\\Documents\\GitHub\\GT-AdminDB\\Views\\ViewParticipacion.xaml.cs",
+              "RelativeToolTip": "Views\\ViewParticipacion.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T12:56:23.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Edge\\source\\repos\\GT-AdminDB\\Views\\MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Edge\\Documents\\GitHub\\GT-AdminDB\\Views\\MainPage.xaml",
               "RelativeDocumentMoniker": "Views\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\Edge\\source\\repos\\GT-AdminDB\\Views\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Edge\\Documents\\GitHub\\GT-AdminDB\\Views\\MainPage.xaml",
               "RelativeToolTip": "Views\\MainPage.xaml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-03T08:27:44.951Z",
               "EditorCaption": ""
@@ -79,39 +83,52 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Edge\\source\\repos\\GT-AdminDB\\Views\\MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Edge\\Documents\\GitHub\\GT-AdminDB\\Views\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "Views\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Edge\\source\\repos\\GT-AdminDB\\Views\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Edge\\Documents\\GitHub\\GT-AdminDB\\Views\\MainPage.xaml.cs",
               "RelativeToolTip": "Views\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-02T02:09:35.083Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Edge\\Documents\\GitHub\\GT-AdminDB\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Edge\\Documents\\GitHub\\GT-AdminDB\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAG8AAAC5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-01T23:00:01.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Edge\\source\\repos\\GT-AdminDB\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Edge\\Documents\\GitHub\\GT-AdminDB\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Edge\\source\\repos\\GT-AdminDB\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Edge\\Documents\\GitHub\\GT-AdminDB\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwCYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAAAsBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-01T23:00:12.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Edge\\source\\repos\\GT-AdminDB\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Edge\\source\\repos\\GT-AdminDB\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAC5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-01T23:00:01.315Z",
+              "DocumentIndex": 0,
+              "Title": "ConfigPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Edge\\Documents\\GitHub\\GT-AdminDB\\Views\\ConfigPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ConfigPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Edge\\Documents\\GitHub\\GT-AdminDB\\Views\\ConfigPage.xaml.cs",
+              "RelativeToolTip": "Views\\ConfigPage.xaml.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAKEAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T15:58:19.475Z",
               "EditorCaption": ""
             }
           ]

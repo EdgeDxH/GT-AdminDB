@@ -28,7 +28,8 @@
             <TextBox x:ConnectionId='3' x:Name="txtPathDB" Header="Ruta base de datos" PlaceholderText="C:\SQLite\db-Guild.db" Grid.Row="0"/>
             <TextBlock Text="Importar/Exportar Datos" Grid.Row="1" Margin="0,6,0,0"/>
             <Button x:ConnectionId='4' x:Name="btnOpenFile" Content="Importar" Grid.Row="2"                          />
-            <Button x:ConnectionId='5' x:Name="btnGuardar" Content="Guardar" Grid.Row="3" Margin="0,16,0,0" Style="{StaticResource AccentButtonStyle}"                         />
+            <Button x:ConnectionId='5' x:Name="btnExportar" Content="Exportar" Grid.Row="2" Margin="84,0,0,0"                          />
+            <Button x:ConnectionId='6' x:Name="btnGuardar" Content="Guardar" Grid.Row="3" Margin="0,16,0,0" Style="{StaticResource AccentButtonStyle}"                         />
         </Grid>
     </Grid>
 </Page>

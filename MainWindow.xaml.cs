@@ -28,8 +28,8 @@ namespace GT_AdminDB
     /// </summary>
     public sealed partial class MainWindow : Window
     {
-        MiembroCollection listaMiembros = new MiembroCollection();
-        RaidCollection listaRaids = new RaidCollection();
+        //MiembroCollection listaMiembros = new MiembroCollection();
+        static RaidCollection listaRaids = new RaidCollection();
         Miembro miembroAuxiliar = new Miembro();
         Participacion participacionAuxiliar = new Participacion();
 
@@ -49,8 +49,20 @@ namespace GT_AdminDB
             dpkUltimoLogin.MaxDate = DateTime.Now;
             dpkFechaRaid.DateFormat = "{day.integer}/{month.integer}/{year.full}";
             dpkFechaRaid.Date = DateTime.Now;
-            contentFrame.Navigate(typeof(MainPage));
-            listaRaids.GetRaids();
+            if (File.Exists((App.Current as App).ConfiguracionApp.PathDB))
+            {
+                Debug.WriteLine("Base de datos existe");
+                contentFrame.Navigate(typeof(MainPage));
+                listaRaids.GetRaids();
+            }
+            else 
+            {
+                expMiembros.IsEnabled = false;
+                expRaid.IsEnabled = false;
+                expFiltros.IsEnabled = false;
+                expOpcionAdicional.IsEnabled = false;
+                InfoResultado(2,"Agregue una base de datos y reinicie el programa", "Base de datos no existe");
+            }
         }
         //METODOS DE PAGINA
         private void btnOpenPane_Click(object sender, RoutedEventArgs e)
@@ -59,9 +71,41 @@ namespace GT_AdminDB
             {
                 case true:
                     splitView.IsPaneOpen = false;
+
+                    switch (expMiembros.IsExpanded)
+                    {
+                        case true:
+                            expanderMiembrosOpen = true;
+                            break;
+                        case false:
+                            expanderMiembrosOpen = false;
+                            break;
+                    }
+                    switch (expRaid.IsExpanded)
+                    {
+                        case true:
+                            expanderRaidOpen = true;
+                            break;
+                        case false:
+                            expanderRaidOpen = false;
+                            break;
+                    }
+
+                    expMiembros.IsExpanded = false;
+                    expRaid.IsExpanded = false;
+                    expFiltros.IsExpanded = false;
+                    expOpcionAdicional.IsExpanded = false;
                     break;
                 case false:
                     splitView.IsPaneOpen = true;
+                    if (expanderMiembrosOpen)
+                    {
+                        expMiembros.IsExpanded = true;
+                    }
+                    if (expanderRaidOpen)
+                    {
+                        expRaid.IsExpanded = true;
+                    }
                     break;
             }
         }
@@ -222,9 +266,7 @@ namespace GT_AdminDB
 
         private void btnTest_Click(object sender, RoutedEventArgs e)
         {
-            string fechaTest = "2024-12-01";
-            DateOnly dateWea = DateOnly.Parse(fechaTest);
-            Debug.WriteLine(dateWea);
+            Debug.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments));
         }
         //METODOS TRANSITORIOS
         public void EditarMiembro(Miembro miembroRecibido)
@@ -311,7 +353,7 @@ namespace GT_AdminDB
             }
         }
 
-        public void InfoResultado(int status, string mensaje)
+        public void InfoResultado(int status, string mensaje, string titulo = "Operacion")
         {
             switch (status)
             {
@@ -328,6 +370,7 @@ namespace GT_AdminDB
                     infobarMain.Background = GetSolidColorBrush("#9D0B00");
                     break;
             }
+            infobarMain.Title = titulo;
             infobarMain.Message = mensaje;
             infobarMain.IsOpen = true;
         }

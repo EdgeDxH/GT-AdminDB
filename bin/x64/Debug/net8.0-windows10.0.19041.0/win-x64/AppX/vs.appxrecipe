@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>1d2e3d78-227d-4dc4-be1f-d3842f899d74</PackageIdentityName>
     <PackageIdentityPublisher>CN=Edge</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Edge\source\repos\GT-AdminDB\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Edge\Documents\GitHub\GT-AdminDB\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Edge\source\repos\GT-AdminDB\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Edge\Documents\GitHub\GT-AdminDB\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>DC2AA6C9B878EE3DD84985753E7C619F59CDE8790A60207FA4E9941C7A49BA95</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>1d2e3d78-227d-4dc4-be1f-d3842f899d74_1.0.0.0_x64__v5b9s9z3rcewg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>1d2e3d78-227d-4dc4-be1f-d3842f899d74_v5b9s9z3rcewg!App</RegisteredUserModeAppID>
@@ -26,36 +26,36 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Edge\source\repos\GT-AdminDB\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-08T06:19:23.816</Modified>
+      <Modified>2024-10-14T15:59:32.926</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-10-07T20:33:24.232</Modified>
+      <Modified>2024-10-14T11:07:18.532</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GT-AdminDB.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GT-AdminDB.runtimeconfig.json">
       <PackagePath>GT-AdminDB.runtimeconfig.json</PackagePath>
-      <Modified>2024-10-07T20:06:36.020</Modified>
+      <Modified>2024-10-13T23:47:07.327</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GT-AdminDB.dll">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GT-AdminDB.dll">
       <PackagePath>GT-AdminDB.dll</PackagePath>
-      <Modified>2024-10-08T06:19:23.634</Modified>
+      <Modified>2024-10-14T15:59:32.755</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\Assets\Boney_Icono.png">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\Assets\Boney_Icono.png">
       <PackagePath>Assets\Boney_Icono.png</PackagePath>
       <Modified>2023-03-13T17:49:10.685</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\config.json">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\config.json">
       <PackagePath>config.json</PackagePath>
       <Modified>2024-10-07T19:50:52.374</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>GT-AdminDB.exe</PackagePath>
-      <Modified>2024-10-08T06:19:23.637</Modified>
+      <Modified>2024-10-14T15:59:32.757</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Edge\.nuget\packages\microsoft.web.webview2\1.0.2651.64\runtimes\win-x64\native\WebView2Loader.dll">
       <PackagePath>runtimes\win-x64\native\WebView2Loader.dll</PackagePath>
@@ -977,35 +977,35 @@
       <PackagePath>Microsoft.Web.WebView2.Core.Projection.dll</PackagePath>
       <Modified>2024-07-20T08:33:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GT-AdminDB.deps.json">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GT-AdminDB.deps.json">
       <PackagePath>GT-AdminDB.deps.json</PackagePath>
-      <Modified>2024-10-07T20:06:35.895</Modified>
+      <Modified>2024-10-13T23:47:07.155</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2024-07-21T09:57:16.742</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <Modified>2024-07-21T09:57:16.742</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <Modified>2024-07-21T09:57:16.746</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <Modified>2024-07-21T09:57:16.746</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <Modified>2024-07-21T09:57:16.746</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <Modified>2024-07-21T09:57:16.747</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Edge\source\repos\GT-AdminDB\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <Modified>2024-07-21T09:57:16.747</Modified>
     </AppxPackagedFile>

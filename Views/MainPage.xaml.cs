@@ -27,8 +27,8 @@ namespace GT_AdminDB.Views
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        MiembroCollection miembroCollection = new MiembroCollection();
-        List<Miembro> miembrosRemovidos = new List<Miembro>();
+        static MiembroCollection miembroCollection = new MiembroCollection();
+        static List<Miembro> miembrosRemovidos = new List<Miembro>();
 
         bool orderByLogin = false;
         public MainPage()

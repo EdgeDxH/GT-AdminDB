@@ -102,18 +102,25 @@ namespace GT_AdminDB.Clases
 
         public void Update(Miembro miembroTemp)
         {
-            Conexion conexion = new Conexion();
-            using (conexion.Connection)
+            try
             {
-                conexion.Connection.Open();
-                Debug.WriteLine("Conexión a la base de datos SQLite establecida.");
+                Conexion conexion = new Conexion();
+                using (conexion.Connection)
+                {
+                    conexion.Connection.Open();
+                    Debug.WriteLine("Conexión a la base de datos SQLite establecida.");
 
-                string insertQuery = $"UPDATE MIEMBRO SET nombre = '{miembroTemp.Nombre}',fecha_ingreso = '{miembroTemp.Fecha_Ingreso}',ultimo_login = '{miembroTemp.Ultimo_Login}' WHERE id = {miembroTemp.Id}";
-                SQLiteCommand command = new SQLiteCommand(insertQuery, conexion.Connection);
-                command.ExecuteNonQuery();
+                    string insertQuery = $"UPDATE MIEMBRO SET nombre = '{miembroTemp.Nombre}',fecha_ingreso = '{miembroTemp.Fecha_Ingreso}',ultimo_login = '{miembroTemp.Ultimo_Login}' WHERE id = {miembroTemp.Id}";
+                    SQLiteCommand command = new SQLiteCommand(insertQuery, conexion.Connection);
+                    command.ExecuteNonQuery();
 
-                conexion.Connection.Close();
-                Debug.WriteLine("Conexión cerrada.");
+                    conexion.Connection.Close();
+                    Debug.WriteLine("Conexión cerrada.");
+                }
+            }
+            catch
+            {
+                Debug.WriteLine("Error en la base de datos");
             }
         }
 
