@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-14T15:59:32.926</Modified>
+      <Modified>2024-10-20T03:01:56.534</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,7 +43,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GT-AdminDB.dll">
       <PackagePath>GT-AdminDB.dll</PackagePath>
-      <Modified>2024-10-14T15:59:32.755</Modified>
+      <Modified>2024-10-20T03:01:56.316</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\Assets\Boney_Icono.png">
       <PackagePath>Assets\Boney_Icono.png</PackagePath>
@@ -55,7 +55,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Edge\Documents\GitHub\GT-AdminDB\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>GT-AdminDB.exe</PackagePath>
-      <Modified>2024-10-14T15:59:32.757</Modified>
+      <Modified>2024-10-20T03:01:56.324</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Edge\.nuget\packages\microsoft.web.webview2\1.0.2651.64\runtimes\win-x64\native\WebView2Loader.dll">
       <PackagePath>runtimes\win-x64\native\WebView2Loader.dll</PackagePath>

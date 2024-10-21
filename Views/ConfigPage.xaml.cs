@@ -70,12 +70,13 @@ namespace GT_AdminDB.Views
             openPicker.FileTypeFilter.Add(".json");
 
             StorageFile file = await openPicker.PickSingleFileAsync();
+
             if (file != null)
             {
                 List<Miembro> miembrosImport = new List<Miembro>();
                 List<Raid> raidImport = new List<Raid>();
                 List<Participacion> participacionImport = new List<Participacion>();
-                if (file.Name == "Merged.json")
+                if (file.Name.Contains("Export"))
                 {
                     string jsonFile = File.ReadAllText(file.Path);
                     Dictionary<string, object> jsonDataMerged = JsonConvert.DeserializeObject<Dictionary<string, object>>(jsonFile);
@@ -159,8 +160,9 @@ namespace GT_AdminDB.Views
                 Participaciones = participacionCollection.Participaciones.ToList()
             };
             var archivoJson = JsonConvert.SerializeObject(exportarJson, Formatting.Indented); //Las fechas se guardan en el formato yyyy-mm-dd
-            File.WriteAllText(System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Merged.json"), archivoJson);
-            Debug.WriteLine("Exito");
+            string nombreJson = "Export-"+DateOnly.FromDateTime(DateTime.Now).ToString().Replace("/","-")+".json";
+            File.WriteAllText(System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), nombreJson), archivoJson);
+            ((App.Current as App).m_window as MainWindow).InfoResultado(1,"Datos exportados con exito.");
         }
     }
 
